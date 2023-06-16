@@ -1,0 +1,117 @@
+<!DOCTYPEhtml>
+<htmllang="ar">
+    <html dir="rtl"
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>جلسات نفسية</title>
+    <link rel="icon" href="pic1.jpg"><!-- لوجو من فوق -->
+    <link rel="stylesheet" href="style.css">    
+    <style>
+       /* === removing default button style ===*/
+.button {
+  margin: 0;
+  height: auto;
+  background: transparent;
+  padding: 0;
+  border: none;
+}
+
+/* button styling */
+.button {
+  --border-right: 6px;
+  --text-stroke-color: rgba(255,255,255,0.6);
+  --animation-color: #37FF8B;
+  --fs-size: 1.5em;
+  letter-spacing: 7px;
+  text-decoration: none;
+  font-size: var(--fs-size);
+  font-family: "Arial";
+  position: relative;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px var(--text-stroke-color);
+}
+/* this is the text, when you hover on button */
+.hover-text {
+  position: absolute;
+  box-sizing: border-box;
+  content: attr(data-text);
+  color: var(--animation-color);
+  width: 0%;
+  inset: 0;
+  border-right: var(--border-right) solid var(--animation-color);
+  overflow: hidden;
+  transition: 0.2s;
+  -webkit-text-stroke: 1px var(--animation-color);
+}
+/* hover */
+.button:hover .hover-text {
+  width: 100%;
+  filter: drop-shadow(0 0 23px var(--animation-color))
+} 
+    </style>
+</head>
+<body>
+   <header>
+       <h1>
+       <div class="container">
+       <a href="index.html" class="logo">
+           <img height="120px"src="pic1.jpg" alt="logo">
+       </a>
+     <b><b>
+       <nav>
+           <ul>
+               <li><a href="index.html" >الصفحة الرئيسية </a> </li>
+             
+               <li><a  href="loading.html"> معلومات نفسية</a> </li>
+           
+               
+ <li><a  href="https://wa.me/qr/LIFEBZOH7MDDP1">التواصل معنا </a> </li>             
+           </ul>
+       </nav>
+     </b></b> </b>
+     </div>  <hr>
+ </h1>  </header>
+   <h2>
+     <center>
+         <b><br><i>  🔱 هذا الموقع خاص بـ شعبة علم نفس 
+         </h2><br><br>
+     </center>
+     <h4 class="active">
+         اختر السنة الدراسية والترم الخاص بك 
+    <br>                              </h4><br><br>
+    
+   <h3><a href="###">
+     <button  data-text="awesome" class="button">
+    <span class="actual-text">&nbsp;الفرقة الاولي الترم الاول &nbsp;</span>
+    <span class="hover-text" aria-hidden="true">&nbsp;الفرقة الاولي الترم الاول&nbsp;</span>
+</button>  
+</a>   </h3><hr>
+<br>
+<br>
+      <a href="https://drive.google.com/drive/folders/1ald34qrnLSEsRzP9Kl4CXXwCBOF5FIxN">
+     <button  data-text="awesome" class="button">
+    <span class="actual-text">&nbsp;الفرقة الاولي الترم الثاني &nbsp;</span>
+    <span class="hover-text" aria-hidden="true">&nbsp;الفرقة الاولي الترم الثاني&nbsp;</span>
+</button>  
+</a> <hr>
+<br><br>
+   <a href="###">
+     <button  data-text="awesome" class="button">
+    <span class="actual-text">&nbsp;الفرقة الثانية الترم الاول &nbsp;</span>
+    <span class="hover-text" aria-hidden="true">&nbsp;الفرقة الثانية الترم الاول&nbsp;</span>
+</button>  
+</a> <hr>
+<br><br>
+   <a href="###">
+     <button  data-text="awesome" class="button">
+    <span class="actual-text">&nbsp;الفرقة الثانية الترم الثاني &nbsp;</span>
+    <span class="hover-text" aria-hidden="true">&nbsp;الفرقة الثانية الترم الثاني&nbsp;</span>
+</button>  
+</a> <hr>
+<br><br>
+ 
+</body>
+</html>
